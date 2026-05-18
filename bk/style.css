@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.lap{
+    display: block;
+    width: 100%;
+}
+.tab{
+    display: none;
+}
+.mob{
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .lap{
+        display: none;
+    }
+    .tab{
+        display: block;
+        width: 100%;
+    }
+    .mob{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .lap{
+        display: none;
+    }
+    .tab{
+        display: none;
+    }
+    .mob{
+        display: block;
+        width: 100%;
+    }
+}
